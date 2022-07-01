@@ -1,0 +1,31 @@
+{
+  "name": "do-functions-challenge-2022",
+  "version": "1.0.0",
+  "description": "A quick fun implementation for the 'DigitalOcean Functions Challenge'",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anselm94/do-functions-challenge-2022.git"
+  },
+  "keywords": [
+    "digitalocean",
+    "functions",
+    "serverless",
+    "challenge"
+  ],
+  "author": "anselm94<merbinjanselm@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/anselm94/do-functions-challenge-2022/issues"
+  },
+  "homepage": "https://github.com/anselm94/do-functions-challenge-2022#readme",
+  "workspaces": [
+    "packages/shark/say-hello"
+  ],
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.3",
+    "typescript": "^4.7.4"
+  }
+}

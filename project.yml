@@ -1,0 +1,17 @@
+environment: {}
+parameters: {}
+packages:
+  - name: shark
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: say-hello
+        binary: false
+        main: 'default'
+        runtime: 'nodejs:default'
+        web: true
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
